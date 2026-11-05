@@ -2,98 +2,224 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Главная</title>
 </head>
-<body bgcolor="#FAFAFA">
+<body>
 
-    <p>
-        <a href="#">Главная</a>
-        <a href="table.html">Таблица</a>
-    </p> 
+    <div class="header">
+        <div class="page-active">
+            <a href="main.html">Главная</a>
+        </div>
 
-    <hr size="2" noshade>
+        <div class="page">
+            <a href="table.html">Таблица</a>
+        </div>
 
-    <p>
-        <img src="img/Китай.jpg" width="300" height="200" alt="Утка по-пекински, Китай">
-        <img src="img/Франция.jpg" width="300" height="200" alt="Круассан, Франция">
-        <img src="img/Индия.jpg" width="300" height="200" alt="Дал, Индия">
-        <img src="img/Япония.jpg" width="300" height="200" alt="Япония"> 
-    </p>
+        <div class="page">
+            <a href="#">Меню</a>
+        </div>
+    </div> 
 
-    <hr size="2" noshade>
-
-    <h2>Китай, утка по-пекински</h2>
-    <p>
-        <a href="China.html"><img src="img/Китай.jpg" width="500" height="300" align="left" hspace="50" alt="Утка по-пекински крупным планом"></a>
-        Одно из самых популярных блюд в Китае, один из символов китайской кухни, 
-        знаменитый на весь мир. Особенно ценной частью утки по-пекински является, 
-        по признанию многих, её <b>тонкая</b> и <b>хрустящая кожа</b>. 
-        Нарезанную на тонкие дольки утку обычно подают с лепёшками, 
-        сладким бобовым соусом или соей с измельчённым чесноком.
-    </p>
-
-    <br clear="all">
+     <div class="logo">
+            Традиционные блюда
+    </div>
     
-    <h2>Франция, Круассан</h2>
+    <div class="content">
+        <div class="image-container container-first">
+            <div class="image-1">
+                <img src="img/Китай.jpg" alt="Утка">
+            </div>
+            
+            <div class="image-mini-container">
+                <div class="image image-first">
+                    <img src="img/Франция.jpg" alt="Круассан, Франция"> 
+                </div>
+                
+                <div class="image">
+                    <img src="img/Индия.jpg" alt="Дал, Индия">
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="img/Япония.jpg" alt="Япония">
+        </div>
+    </div>
 
-    <p>
-        <img src="img/Франция.jpg" width="500" height="300" align="left" hspace="50" alt="Свежеиспеченный французский круассан">
-        Благодаря появлению в 70-х годах фабричного замороженного слоёного теста, 
-        круассаны превратились в широко популярный фаст-фуд и теперь их могут печь все, 
-        а не только опытные повара. Круассан — наиболее распространённая выпечка, 
-        подаваемая к завтраку в континентальном стиле.
-    </p>
+    <div class="info-container">
+        <div class="article-main">
+            <div class="article-main-element main-element-top">
+                <div class="block border1">
+                    <div class="block-description">
+                        <h2>Китай, утка по-пекински</h2>
+
+                        <p>
+                            Одно из самых популярных блюд в Китае, один из символов китайской кухни, 
+                            знаменитый на весь мир. Особенно ценной частью утки по-пекински является, 
+                            по признанию многих, её <b>тонкая</b> и <b>хрустящая кожа</b>. 
+                            Нарезанную на тонкие дольки утку обычно подают с лепёшками, 
+                            сладким бобовым соусом или соей с измельчённым чесноком.
+                        </p>
+                        
+                        <div class="block-image">
+                            <a href="China.html">
+                                <img src="img/Китай.jpg" alt="Утка по-пекински крупным планом">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="block-link link-right">
+                        <a href="#">Подробнее»</a>
+                    </div>
+                </div>
+
+                <div class="block border2">
+                    <div class="block-description">
+                        <div class="block-image">
+                            <img src="img/Франция.jpg" alt="Круассан, Франция">
+                        </div>
+
+                        <h2>Франция, Круассан</h2>
+
+                        <p>
+                            Благодаря появлению в 70-х годах фабричного замороженного слоёного теста, 
+                            круассаны превратились в широко популярный фаст-фуд и теперь их могут печь все, 
+                            а не только опытные повара. Круассан — наиболее распространённая выпечка, 
+                            подаваемая к завтраку в континентальном стиле.
+                        </p>
+                    </div>
+
+                    <div class="block-link link-left">
+                        <a href="#">Подробнее»</a>
+                    </div>
+                </div>
+            </div>    
+
+            <div class="article-main-element">
+                <div class="block border3">
+                    <div class="block-description">
+                        <h2>Индия, Дал</h2>
+
+                        <p>
+                            Самое популярнейшее и самое «<i>народное</i>» индийское блюдо. 
+                            Дал — это похлебка из чечевицы или гороха (и любых других видов бобовых). 
+                            В общем-то, в Индии любое блюдо из бобовых называют «<i>Дал</i>».
+                        </p>
+
+                        <div class="block-image">
+                            <img src="img/Индия.jpg" alt="Дал, Индия">
+                        </div>
+                    </div>
+
+                    <div class="block-link link-right">
+                        <a href="#">Подробнее»</a>
+                    </div>
+                </div>
+
+                <div class="block border4">
+                    <div class="block-description">
+                        <div class="block-image">
+                            <img src="img/Япония.jpg" alt="Суши, Япония">
+                        </div>
+
+                        <h2>Суши, Япония</h2>
+                        
+                        <p>
+                            Суши - это традиционное японское блюдо,
+                            в основе которого лежит заправленный уксусом
+                            мелкозернистый рис, дополненный
+                            морепродуктами, овощами и водорслями
+                            Повар Ханая Ехэй стал подавать кусочки свежей
+                            на рисовых колобках.
+                        </p>
+                    </div>
+
+                    <div class="block-link link-left">
+                        <a href="#">Подробнее»</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="article-additional">
+            <div class="article-additional-element">
+                <div class="additional-block-text">
+                    <h2>Факты о пекинской утке</h2>
+
+                    <p>
+                        Нарезанную на тонкие дольки утку обычно подают 
+                        с лепёшками, сладким бобовым соусом или соей с 
+                        измельчённым чесноком.
+                    </p>
+
+                    <a href="#">Подробнее»</a>
+                </div>
+
+                <div class="additional-block-pict">
+                    <img src="img/Китай.jpg" alt="Утка по-пекински крупным планом">
+                </div>
+            </div>
+
+            <div class="article-additional-element">
+                <div class="additional-block-text">
+                    <h2>Факты о круасане</h2>
+
+                    <p>
+                        Круассан — наиболее распространённая выпечка, 
+                        подаваемая к завтраку в континентальном стиле.
+                    </p>
+
+                    <a href="#">Подробнее»</a>
+                </div>
+
+                <div class="additional-block-pict">
+                    <img src="img/Франция.jpg" alt="Круассан, Франция">
+                </div>
+            </div>
+
+            <div class="article-additional-element">
+                <div class="additional-block-text">
+                    <h2>Факты о дал</h2>
+
+                    <p>
+                        Дал — это похлебка из чечевицы 
+                        или гороха (и любых других видов бобовых).
+                    </p>
+
+                    <a href="#">Подробнее»</a>
+                </div>
+
+                <div class="additional-block-pict">
+                    <img src="img/Индия.jpg" alt="Дал, Индия">
+                </div>
+            </div>
+
+            <div class="article-additional-element additional-element-last">
+                <div class="additional-block-text">
+                    <h2>Факты о суши</h2>
+
+                    <p>
+                        Повар Ханая Ехэй стал подавать кусочки свежей
+                        на рисовых колобках.
+                    </p>
+
+                    <a href="#">Подробнее»</a>
+                </div>
+
+                <div class="additional-block-pict">
+                    <img src="img/Япония.jpg" alt="Суши, Япония">
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <br clear="all">
-    
-    <h2>Индия, Дал</h2>
-    <p>
-        <img src="img/Индия.jpg" width="500" height="300" align="left" hspace="50" alt="Индийское блюдо Дал из бобовых">
-        Самое популярнейшее и самое «<i>народное</i>» индийское блюдо. 
-        Дал — это похлебка из чечевицы или гороха (и любых других видов бобовых). 
-        В общем-то, в Индии любое блюдо из бобовых называют «<i>Дал</i>».
-    </p>
+   <div class="footer">
+        <p>
+            Автор: Залуцкий Владислав Андреевич
+        </p>
 
-    <br clear="all">
-
-    <hr>
-
-    <h2 align="center">Рейтинг Популярности</h2>
-    <ol>
-        <li>
-            <details>
-                <summary><b>Круассан</b></summary>
-                мировой лидер по узнаваемости и географической распространенности. 
-                Это повседневная выпечка, которая продается в пекарнях, 
-                кофейнях и супермаркетах практически в любой стране.
-            </details>
-
-        </li>
-        <li>
-            <details>
-                <summary><b>Дал</b></summary>
-                уступает круассану в глобальной кулинарной интеграции на Западе, 
-                но по ежедневному объему потребления может с ним поспорить. 
-                Это базовый элемент ежедневного рациона для более чем миллиарда 
-                человек в странах Южной Азии (Индия, Непал, Пакистан, Бангладеш).
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary><b>Утка по-пекински</b></summary>
-                всемирно известное, но специфическое ресторанное блюдо. 
-                В отличие от первых двух позиций, это деликатес для особых случаев, 
-                требующий сложного приготовления, поэтому по частоте употребления 
-                он закономерно находится на последнем месте.
-            </details>
-        </li>
-    </ol>
-
-    <hr size="2" noshade>
-    
-    <p align="center">
-        <b>Автор</b>: Залуцкий Владислав Андреевич<br>
-        <b>Группа</b>: Б9124-09.03.04
-    </p>
+        <p>
+            Группа: Б9124-09.03.04
+        </p>
+   </div>
 </body>
 </html>
