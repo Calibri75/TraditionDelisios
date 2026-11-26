@@ -1,0 +1,55 @@
+Images downloaded from Wikimedia Commons for the food descriptions.
+Please retain this attribution information if you reuse the files.
+
+carbonara.jpg
+Artist: Javier Somoza
+License: CC BY-SA 4.0
+Source: https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg
+License: https://creativecommons.org/licenses/by-sa/4.0/
+
+french-onion-soup.jpg
+Artist: Jim G
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:French_Onion_Soup,_Applebee%27s.jpg
+License: https://creativecommons.org/licenses/by/2.0/
+
+ramen.jpg
+Artist: Rahat Been Farooqi
+License: CC BY-SA 4.0
+Source: https://commons.wikimedia.org/wiki/File:Ramen_4.jpg
+License: https://creativecommons.org/licenses/by-sa/4.0/
+
+dim-sum.jpg
+Artist: afterdog
+License: CC0
+Source: https://commons.wikimedia.org/wiki/File:Dim_Sum_Breakfast.jpg
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+chicken-tikka-masala.jpg
+Artist: Kelly Sue
+License: CC BY 2.0
+Source: https://commons.wikimedia.org/wiki/File:Chicken_Tikka_Masala_KellySue.JPG
+License: https://creativecommons.org/licenses/by/2.0/
+
+paella.jpg
+Artist: Wilfredor
+License: CC0
+Source: https://commons.wikimedia.org/wiki/File:Paella_de_fruit_de_mer.jpg
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+tacos.jpg
+Artist: Larry Miller
+License: CC BY-SA 2.0
+Source: https://commons.wikimedia.org/wiki/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg
+License: https://creativecommons.org/licenses/by-sa/2.0/
+
+moussaka.jpg
+Artist: Dieter Mueller
+License: CC BY-SA 3.0
+Source: https://commons.wikimedia.org/wiki/File:Mousakas.jpg
+License: https://creativecommons.org/licenses/by-sa/3.0/
+
+baklava.jpg
+Artist: Kultigin
+License: Public domain
+Source: https://commons.wikimedia.org/wiki/File:Baklava_-_Turkish_special,_80-ply.JPEG
